@@ -1,0 +1,11 @@
+import random
+liste=range(50) #50 sayýlý bir liste oluþturdum sayýsal lotoyu bu listeden çekicez
+print "Rastgele Seçilen Sayýlar"
+list = random.sample(liste,10)#sample komutu oluþutrudðumuz listeden rastgele 6 tane deðer seçiyor. Bu seçtiðimiz deðerleri x adý altýnda birleþtirdim.
+list.sort()
+print list
+print "Sayilarin Toplami"
+print sum(list)
+a=list[0]
+b=list[9]
+print (a+b)/2.0
