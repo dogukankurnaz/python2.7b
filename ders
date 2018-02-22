@@ -1,0 +1,27 @@
+liste=[3,1,"b",5,"a",10,2,3,5]
+demet=(3,1,5,"a",10,2,3,5)
+kume={3,1,5,10,2,3,5}
+
+print "Tipler>",type(liste),type(demet),type(kume)
+liste.pop()
+liste.append(20)
+liste.sort()
+print liste
+
+print "Liste"
+for i in liste:
+    print i
+
+print "Demet"
+for i in demet:
+    print i
+
+
+print "Kume"
+for i in kume:
+    print i
+kume.pop()
+kume.add("dogukan")
+print "Kume"
+for i in kume:
+    print i
