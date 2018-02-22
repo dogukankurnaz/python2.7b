@@ -1,0 +1,13 @@
+sozluk={"isim":"python","dogumyili":"1990","nesne":True,"versiyon":3}
+
+#s�zl�k �zerinde d�ng�
+print "tipi=",type(sozluk)
+
+for (k,v)in sozluk.items():
+    print k,"=>",v
+
+print sozluk["versiyon"]
+sozluk["gelistirici"]="Dogukan KURNAZ"
+sozluk["dogumyili"]="1991"
+print sozluk
+print len(sozluk)
