@@ -1,0 +1,14 @@
+print "Dosya Okuma"
+try:
+    f=open("deneme.txt","r")
+    a=f.readlines()
+    t=0
+    for i in a:
+        t+=int(i)
+    print "Dosya sayilarinin toplami=",t
+except Exception as e:
+    print "Bir hata oluþtu orjinal hata mesajý:",e
+    print "Hatanin sinifi:",e.__class__
+finally:
+    print "Dosya Kapatiliyor"
+    f.close()
