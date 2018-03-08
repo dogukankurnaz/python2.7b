@@ -1,0 +1,7 @@
+import random
+harfler="abcdefghijklmnopqrstuvwxyz"
+f=open("dene.txt","w")
+for i in range(25):
+    f.write(str(random.choice(harfler))+":"+str(random.randint(0,10))+"\n")
+
+f.close()
