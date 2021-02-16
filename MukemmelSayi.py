@@ -7,5 +7,5 @@ for a in range(2,1000):
     if t==a:
         x.append(a)
 
-print "2-1000 arasýnda",len(x),"adet mükemmel sayý var"
+print "2-1000 arasýnda",len(x),"adet mükemmel sayi var"
 print x
